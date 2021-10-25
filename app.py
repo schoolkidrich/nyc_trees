@@ -40,7 +40,7 @@ app.layout = html.Div(children=[
         figure=fig_health
     ),
     html.Div(children='''
-        Health of Trees in NYC by Steward
+        Health of Trees in NYC by Numer of Steward(s)
     '''),
     dcc.Dropdown(
         id='stewards',
