@@ -7,6 +7,8 @@ import pandas as pd
 
 app = dash.Dash(__name__)
 
+server = app.server
+
 for count in range(5):
     limit = 1000
     url = 'https://data.cityofnewyork.us/resource/nwxe-4ae8.json?$limit={}&$offset={}'.format(limit,limit*count) +\
